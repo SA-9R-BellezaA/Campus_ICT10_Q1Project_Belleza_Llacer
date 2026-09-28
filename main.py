@@ -1,13 +1,4 @@
-"""
-main.py
-Hi ma'am this is the python file that runs both pages of our site through PyScript.
 
-We have two functions here:
-  - SKU_generator: takes the category, product name, and quantity the user
-    typed in and turns it into a SKU code (used on index.html)
-  - create_order: checks which menu items the user ticked, adds up the
-    total, and shows a receipt (used on receipt_generator.html)
-"""
 from pyscript import document
 
 
